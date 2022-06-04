@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIROFIX</title>
+    <script src="https://kit.fontawesome.com/e9ce89b462.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"> <i class="fa-solid fa-microchip "></i> <span>Miro</span><span
+                    class="text-primary">fix</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link" href="#aboutus">O nas</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="#contact">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="home">
+        <div class="hero-img">
+            <div
+                class="container h-100 d-flex flex-column justify-content-center align-items-center text-light text-center">
+                <p class="display-1 text-uppercase"><span>Miro</span><span
+                    class="text-primary">fix</span></a></p>
+                <p class="display-6 text-uppercase">Z pasji do elektroniki</p>
+            </div>
+            <div class="hero-shadow"></div>
+        </div>
+
+    </header>
+
+    <main>
+        <section id="aboutus" class="aboutus bg-light py-5">
+            <div class="container">
+                <h2>o nas</h2>
+                <div class="underline"></div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <p><i class="fa-solid fa-laptop"></i></p>
+                        <p class="aboutus-card-title mb-1">Serwis laptopów</p>
+                        <p class="aboutus-card-text">Naprawiamy i regenerujemy laptopy.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <p><i class="fa-solid fa-screwdriver-wrench"></i></p>
+                        <p class="aboutus-card-title mb-1">Serwis elektroniki</p>
+                        <p class="aboutus-card-text">Serwisujemy elektronikę użytkową.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <p><i class="fa-solid fa-cubes"></i></p>
+                        <p class="aboutus-card-title mb-1">Druk 3D</p>
+                        <p class="aboutus-card-text">Projektujemy i wykonujemy elementy w technologi druku 3D.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <p><i class="bi bi-motherboard-fill"></i></p>
+                        <p class="aboutus-card-title mb-1">PCB</p>
+                        <p class="aboutus-card-text">Wykonujemy sterowniki dla urządzeń elektronicznych. </p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <p><i class="fa-solid fa-file-code"></i></p>
+                        <p class="aboutus-card-title mb-1">Programowanie</p>
+                        <p class="aboutus-card-text">Piszemy programy dla mikrokontrolerów z rodziny AVR oraz STM32.</p>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <p> <i class="fa-solid fa-user"></i></p>
+                        <p class="aboutus-card-title mb-1">Satysfakcja</p>
+                        <p class="aboutus-card-text">Dbamy o naszych klientów.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio py-5">
+
+            <h2 class="text-light">portfolio</h2>
+            <div class="underline"></div>
+
+            <div class="container">
+
+                <div class="card-group portfolio-carousel">
+
+                    <div class="card mx-3">
+                        <img src="./img/portfolio/druk3d.jpg" class="card-img-top " alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Druk 3D</h3>
+                            <p class="card-text">Zaprojektowane i w pełni wydrukowane urządzenie używane w
+                                pszczelarstwie.</p>
+                        </div>
+                    </div>
+
+                    <div class="card mx-3">
+                        <img src="./img/portfolio/figurka.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Druk 3D</h3>
+                            <p class="card-text">Wydruk figurki z filamentu imitującego drewno.</p>
+                        </div>
+                    </div>
+
+                    <div class="card mx-3">
+                        <img src="./img/portfolio/wzmacniacz_samochodowy.jpg" class="card-img-top " alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Wzmacniacz audio</h3>
+                            <p class="card-text">Naprawa wzmacniacza samochodowego.</p>
+                        </div>
+                    </div>
+
+                    <div class="card mx-3">
+                        <img src="./img/portfolio/zalany.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Zalania</h3>
+                            <p class="card-text">Naprawa laptopa po zalaniu.</p>
+                        </div>
+                    </div>
+
+                    <div class="card mx-3">
+                        <img src="./img/portfolio/chlodzenie.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Chlodzenie</h3>
+                            <p class="card-text">Regeneracja układu chłodzenia laptopa.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="portfolio-shadow"></div>
+
+
+        </section>
+
+        <section id="contact" class="contact py-5">
+            <h2>kontakt</h2>
+            <div class="underline"></div>
+
+            <div class="container text-center py-5">
+                <p class="display-5 text-dark pb-lg-5 text-uppercase">Napisz do nas!</p>
+                <div class="row">
+                    <div class="col-lg-9 my-5 m-lg-0">
+                        <form>
+
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Imię i nazwisko">
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Adres mailowy">
+                            </div>
+                            <div class="input-group mb-3">
+                                <textarea rows="6" class="form-control" placeholder="Treść wiadomości"></textarea>
+                            </div>
+
+                            <input type="submit" value="Wyślij" class="btn btn-primary px-4 py-2 submit-btn">
+
+                        </form>
+
+                    </div>
+                    <div class="col-lg-3 mt-4 m-lg-0 contact-info">
+                        <h3>Adres:</h3>
+                        <p><i class="bi bi-geo-alt"></i> ul. Elektroniczna 1 <br> 58-130 Żarów</p>
+                        <p><i class="bi bi-phone "></i> +48 000 000 000</p>
+                        <p><i class="bi bi-at"></i> kontakt@mail.pl</p>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+            </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light py-4 text-center">
+        <p class="mb-0 ">&copy; 2022 | MiroFix <span class="icon-box">
+                <a href="http://www.facebook.com/Elektronika-%C5%81ukasz-Mirowicz-112704507275553" target="_blank"><i class="fa-brands fa-facebook-square"></i></a> </p>
+        </span>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="js/slicksettings.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
