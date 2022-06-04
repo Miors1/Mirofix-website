@@ -90,7 +90,7 @@ h2 {
 
 .portfolio {
 	position: relative;
-	background-image: url('/img/technology_1280.jpg');
+	background-image: url('../img/technology_1280.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	z-index: 0;
